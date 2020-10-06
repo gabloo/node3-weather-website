@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node src/app.js"
+  "dependencies": {
+    "hbs": "^4.1.1"
   },
-  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabloo/node3-weather-website.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4",
-    "hbs": "^4.0.1",
-    "request": "^2.88.0"
-  }
+  "bugs": {
+    "url": "https://github.com/gabloo/node3-weather-website/issues"
+  },
+  "homepage": "https://github.com/gabloo/node3-weather-website#readme"
 }
